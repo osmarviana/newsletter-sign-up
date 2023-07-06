@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter sign-up form with success message</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/a6af6215d3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="content"></div>
+    <main class="container">
+      <section class="sign-wrapper">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="updates-box">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Product discovery and building what matters</span>
+        </div>
+        <div class="updates-box">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Measuring to ensure updates are a success</span>
+        </div>
+        <div class="updates-box">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>And much more!</span>
+        </div>
+
+        <div class="email-box">
+          <label for="email">Email address</label>
+          <small>Mensagem de erro</small>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="email@company.com"
+          />
+        </div>
+        <button class="btn-subscribe" id="btn-subscribe">
+          Subscribe to monthly newsletter
+        </button>
+      </section>
+      <section class="img-wrapper">
+        <picture>
+          <source
+            srcset="./assets/images/illustration-sign-up-mobile.svg"
+            media="(max-width: 425px)"
+          />
+          <img
+            class="banner"
+            src="./assets/images/illustration-sign-up-desktop.svg"
+          />
+        </picture>
+      </section>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
